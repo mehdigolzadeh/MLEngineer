@@ -13,4 +13,9 @@ There are two types of change:
   * Realtime or batch process?
   * Cloud or edge/browser?
   * Computing resources
+  * Latency/Throughput (QPS)
+  * Logging
+  * Security and privacy
+
+
   
