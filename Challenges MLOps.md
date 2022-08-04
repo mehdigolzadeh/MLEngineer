@@ -1,3 +1,11 @@
+### Challenges of deployment of machine learning models on the production
+ 1- Change in data (Data drift)
+ 2- It takes more than model development it self
+
+### The requirement surrounding ML infrustructure
+![Alt text]("/photos/mlinfrusturcture.png")
+
+
 ### Problems a model may face after deployment:
   * Concept drift
     - Change in the outputs of the data (Y)
