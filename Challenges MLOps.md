@@ -36,4 +36,22 @@ There are two types of change:
     Have both old(blue) and new(green) system in the production environment and switch between them suddenly
   * _Degree of automation_:
       ![Alt text](/images/deploymentlevel.png)
+      
+### Deployment is iterative process as modeling
+![Alt text](/images/iterative.png)
 
+# Monitoring
+## Monitoring Dashboard
+  * Software metrics:
+    - Memory
+    - Compute
+    - Latency
+    - Throughput
+    - Serverload
+  * Input metrics:
+    - Check changes in all input features statistically
+  * Output metrics:
+    - Times return ""
+    - User redoes
+    - All output problems (should be listed in a brain stroming meeting)
+    
