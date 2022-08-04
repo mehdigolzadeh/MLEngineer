@@ -3,7 +3,7 @@
  2- It takes more than model development it self
 
 ### The requirement surrounding ML infrustructure
-![Alt text]("/images/mlinfrusturcture.png")
+![Alt text]("images/mlinfrusturcture.png")
 
 
 ### Problems a model may face after deployment:
