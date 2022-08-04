@@ -26,4 +26,14 @@ There are two types of change:
   * Security and privacy
 
 
-  
+### First deployment vs Maintenance deployment
+
+
+### Deployment patterns:
+  * _Canary deployment_:
+    Only partially send the data to models
+  * _Blue Green deployment_:
+    Have both old(blue) and new(green) system in the production environment and switch between them suddenly
+  * _Degree of automation_:
+      ![Alt text](/images/deploymentlevel.png)
+
