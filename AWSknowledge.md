@@ -16,7 +16,7 @@ Default region name [None]: eu-central-1
 Default output format [None]: json
 ```
 
-Create yaml file:
+Create yaml file "cluster-1.21.yaml":
 ```
 apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
