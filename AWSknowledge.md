@@ -25,7 +25,7 @@ metadata:
   region: eu-central-1
   version: "1.21"
 managedNodeGroups:
-- name: linux-nodes \
+- name: linux-nodes
   instanceType: m5.xlarge
   minSize: 5
   maxSize: 10
