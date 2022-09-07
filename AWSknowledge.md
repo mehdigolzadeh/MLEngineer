@@ -35,3 +35,8 @@ Run command
 ```
  eksctl create cluster -f .\cluster-1.21.yaml
 ```
+
+# Delete an EKS cluster
+```
+eksctl delete cluster --region=eu-central-1 --name=devops-catalog
+```
