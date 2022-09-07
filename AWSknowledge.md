@@ -40,3 +40,8 @@ Run command
 ```
 eksctl delete cluster --region=eu-central-1 --name=devops-catalog
 ```
+
+# Get kubernetes node:
+```
+kubectl get nodes
+```
