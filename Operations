@@ -1,0 +1,4 @@
+aws configure sso
+aws sts get-caller-identity
+setx AWS_PROFILE features-de-prod
+aws configure set default.profile features-de-prod
