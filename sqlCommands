@@ -1,4 +1,4 @@
-update model status 
+## update model status 
 
 UPDATE ods_hdp.analytics_model_run
    SET model_run_status = 'Completed'
