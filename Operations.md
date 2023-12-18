@@ -1,11 +1,13 @@
+```
 aws configure sso
 setx AWS_PROFILE features-de-prod
 aws sts get-caller-identity
 aws configure set default.profile features-de-prod
-
+```
+```
 aws s3 cp /path/to/extracted-data.csv s3://your-migration-bucket-name/
 aws s3 sync s3://my-source-bucket s3://my-destination-bucket to copy the bucket data
-
+```
 
 to sync oracle tables with s3
 
