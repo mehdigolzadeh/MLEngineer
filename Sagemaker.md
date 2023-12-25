@@ -7,3 +7,6 @@
 * An associated Amazon Elastic File System (Amazon EFS) volume
 * A list of authorized users
 * A variety of security, application, policy, and Amazon Virtual Private Cloud (Amazon VPC) configurations
+
+# AutoML
+[how to create autoML models](https://docs.aws.amazon.com/sagemaker/latest/dg/autopilot-automate-model-development.html)
