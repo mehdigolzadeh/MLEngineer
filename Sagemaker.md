@@ -12,6 +12,12 @@
 [how to create autoML models](https://docs.aws.amazon.com/sagemaker/latest/dg/autopilot-automate-model-development.html)
 
 # All types of Sagemaker development environment
+ * **Amazon SageMaker Studio:** The latest web-based experience for running ML workflows with a suite of IDEs. Studio supports the following applications.
+    **Amazon SageMaker Studio Classic
+    **Code Editor, based on Code-OSS, Visual Studio Code - Open Source
+    **JupyterLab
+    **Amazon SageMaker Canvas
+    **RStudio
  * **Amazon SageMaker Studio Classic:** Lets you build, train, debug, deploy, and monitor your machine learning models.
  * **Amazon SageMaker Notebook Instances:** Lets you prepare and process data, and train and deploy machine learning models from a compute instance running the Jupyter Notebook application.
  * **Amazon SageMaker Studio Lab:** Studio Lab is a free service that gives you access to AWS compute resources, in an environment based on open-source JupyterLab, without requiring an AWS account.
