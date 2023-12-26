@@ -30,7 +30,7 @@
 # Data preparation:
 You can use Amazon **SageMaker Data Wrangler** to import, prepare, transform, visualize and analyze data. You can integrate Data Wrangler into your machine learning workflows to simplify and streamline data pre-processing and feature engineering using little to no coding. You can also add your own Python scripts and transformations to customize your data prep workflow.
 
-After you have defined a data prep workflow, or data flow, you can integrate it with **SageMaker Processing**, **SageMaker Pipelines**, and **SageMaker Feature Store**, simplify the task of processing, sharing and storing ML training data. You can also export your data flow to a python script and create a custom ML data prep pipeline.
+After you have defined a data prep workflow or data flow, you can integrate it with **SageMaker Processing**, **SageMaker Pipelines**, and **SageMaker Feature Store**, simplify the task of processing, sharing, and storing ML training data. You can also export your data flow to a Python script and create a custom ML data prep pipeline.
 
 For fast data preparation at scale, Amazon SageMaker Studio Classic provides a **built-in integration with Amazon EMR**. You can use SageMaker Studio Classic to connect to, provision, or manage Amazon EMR clusters from your notebook interface for petabyte-scale data processing, interactive analytics, and machine learning. Amazon EMR uses open-source frameworks such as Apache Spark, Apache Hive, or Presto. 
 
@@ -41,3 +41,6 @@ You can use **Amazon SageMaker Clarify** to determine whether the data that youâ
 
 # Example using EMR to process data 
 [Example](https://sagemaker-examples.readthedocs.io/en/latest/sagemaker_processing/spark_distributed_data_processing/sagemaker-spark-processing.html)
+
+[advanced scenario to build a processing container](https://docs.aws.amazon.com/sagemaker/latest/dg/build-your-own-processing-container.html)
+
