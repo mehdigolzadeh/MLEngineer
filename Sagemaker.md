@@ -25,3 +25,15 @@
  * **Amazon SageMaker geospatial:** Gives you the ability to build, train, and deploy geospatial models.
  * **RStudio on Amazon SageMaker:** RStudio is an IDE for R, with a console, syntax-highlighting editor that supports direct code execution, and tools for plotting, history, debugging and workspace management.
  * **SageMaker HyperPod:** SageMaker HyperPod lets you provision resilient clusters for running machine learning (ML) workloads and developing state-of-the-art models such as large language models (LLMs), diffusion models, and foundation models (FMs).
+
+
+# Data preparation:
+You can use Amazon **SageMaker Data Wrangler** to import, prepare, transform, visualize and analyze data. You can integrate Data Wrangler into your machine learning workflows to simplify and streamline data pre-processing and feature engineering using little to no coding. You can also add your own Python scripts and transformations to customize your data prep workflow.
+
+After you have defined a data prep workflow, or data flow, you can integrate it with **SageMaker Processing**, **SageMaker Pipelines**, and **SageMaker Feature Store**, simplify the task of processing, sharing and storing ML training data. You can also export your data flow to a python script and create a custom ML data prep pipeline.
+
+For fast data preparation at scale, Amazon SageMaker Studio Classic provides a **built-in integration with Amazon EMR**. You can use SageMaker Studio Classic to connect to, provision, or manage Amazon EMR clusters from your notebook interface for petabyte-scale data processing, interactive analytics, and machine learning. Amazon EMR uses open-source frameworks such as Apache Spark, Apache Hive, or Presto. 
+
+Alternatively, you can use the Apache Spark-based serverless engine from an **AWS Glue** interactive sessions to aggregate and transform data from multiple sources. You can aggregate and transform data from your analytics and ETL (extract, transform, and load) pipelines without needing to manage infrastructure.
+
+You can use **Amazon SageMaker Clarify** to determine whether the data that you’re using to train models or your resulting model encodes any bias. SageMaker Clarify can also help you explain models created with tabular, image or NLP data with partial dependence plots, feature importance and more. For more information about SageMaker Clarify, see Detect Pre-training Data Bias.
