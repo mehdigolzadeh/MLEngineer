@@ -37,3 +37,7 @@ For fast data preparation at scale, Amazon SageMaker Studio Classic provides a *
 Alternatively, you can use the Apache Spark-based serverless engine from an **AWS Glue** interactive sessions to aggregate and transform data from multiple sources. You can aggregate and transform data from your analytics and ETL (extract, transform, and load) pipelines without needing to manage infrastructure.
 
 You can use **Amazon SageMaker Clarify** to determine whether the data that you’re using to train models or your resulting model encodes any bias. SageMaker Clarify can also help you explain models created with tabular, image or NLP data with partial dependence plots, feature importance and more. For more information about SageMaker Clarify, see Detect Pre-training Data Bias.
+
+
+# Example using EMR to process data 
+[Example](https://sagemaker-examples.readthedocs.io/en/latest/sagemaker_processing/spark_distributed_data_processing/sagemaker-spark-processing.html)
