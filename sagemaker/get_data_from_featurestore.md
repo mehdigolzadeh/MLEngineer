@@ -20,3 +20,15 @@ feature_store_session = Session(
 feature_group_name = "YOUR FEATURE GROUP NAME"
 feature_group = FeatureGroup(name=feature_group_name, sagemaker_session=feature_store_session)
 ```
+
+
+Then careate dataframe form data
+
+```
+# cell 04
+# Build SQL query to features group
+fs_query = feature_group.athena_query()
+fs_table = fs_query.table_name
+query_string = 'SELECT * FROM "'+fs_table+'"'
+print('Running ' + query_string)
+```
