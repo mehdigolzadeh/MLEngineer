@@ -32,3 +32,13 @@ fs_table = fs_query.table_name
 query_string = 'SELECT * FROM "'+fs_table+'"'
 print('Running ' + query_string)
 ```
+
+Then run queary and await for it
+
+```
+# cell 05
+# Run Athena query. The output is loaded to a Pandas dataframe.
+fs_query.run(query_string=query_string, output_location='s3://'+bucket+'/'+prefix+'/fs_query_results/')
+fs_query.wait()
+model_data = fs_query.as_dataframe()
+```
