@@ -2,6 +2,10 @@
 
 [getting started with sagemaker](https://docs.aws.amazon.com/sagemaker/latest/dg/gs.html)
 
+# Pricing
+
+[all services](http://aws.amazon.com/sagemaker/pricing/)
+
 # An Amazon SageMaker Domain consists of the following:
 
 * An associated Amazon Elastic File System (Amazon EFS) volume
