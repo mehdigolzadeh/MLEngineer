@@ -1,3 +1,7 @@
+Key arn : arn:aws:kms:eu-central-1:781406731441:key/bf328cf5-db76-4967-b36d-6b1f1952f1a8
+
+
+
 # How to setup Sagemaker:
 
 [getting started with sagemaker](https://docs.aws.amazon.com/sagemaker/latest/dg/gs.html)
