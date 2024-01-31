@@ -1,6 +1,6 @@
 ```
 aws configure sso
-setx AWS_PROFILE features-de-prod
+set AWS_PROFILE=features-de-prod
 aws sts get-caller-identity
 aws configure set default.profile features-de-prod
 ```
