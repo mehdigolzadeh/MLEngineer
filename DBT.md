@@ -1,8 +1,16 @@
-c:\Telenet\DBT>activate dbtconda
+Create venv
 
+```
+python3 -m venv <virtual-environment-name>
+source name/bin/activate
+```
+
+
+c:\Telenet\DBT>activate dbtconda
+```
 dbt debug
 dbt run
-
+```
 
 
 # AIRFLOW
