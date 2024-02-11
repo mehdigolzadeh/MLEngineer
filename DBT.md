@@ -12,6 +12,7 @@ dbt debug
 dbt run
 ```
 
+# DBT resouces
 | Resource  | Description  |
 |---|---|
 | models  | Each model lives in a single file and contains logic that either transforms raw data into a dataset that is ready for analytics or, more often, is an intermediate step in such a transformation.  |
